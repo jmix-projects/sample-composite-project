@@ -1,0 +1,6 @@
+rootProject.name = 'all'
+
+includeBuild '../users'
+includeBuild '../customers'
+includeBuild '../products'
+includeBuild '../sales'

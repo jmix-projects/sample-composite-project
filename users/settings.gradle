@@ -1,0 +1,8 @@
+rootProject.name = 'users-addon'
+
+include 'users'
+include 'users-starter'
+
+rootProject.children.each { p1 ->
+    p1.buildFileName = "${p1.name}.gradle"
+}

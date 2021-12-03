@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<menu-config xmlns="http://jmix.io/schema/ui/menu">
+
+    <menu id="usr" caption="msg://com.company.users/menu.addon" insertAfter="administration">
+        <item screen="usr_User.browse" caption="msg://com.company.users.screen.user/UserBrowse.caption"/>
+    </menu>
+
+</menu-config>
