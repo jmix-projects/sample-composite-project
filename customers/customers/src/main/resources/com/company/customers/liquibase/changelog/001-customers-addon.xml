@@ -20,6 +20,7 @@
             <column name="NAME" type="VARCHAR(255)"/>
             <column name="EMAIL" type="VARCHAR(255)"/>
             <column name="STAFF_ID" type="UUID"/>
+            <column name="NOTIFY_AT" type="bigint"/>
         </createTable>
     </changeSet>
     <changeSet id="2" author="customers-addon">

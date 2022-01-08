@@ -10,6 +10,7 @@ import org.springframework.data.annotation.LastModifiedBy;
 import org.springframework.data.annotation.LastModifiedDate;
 
 import javax.persistence.*;
+import java.time.Instant;
 import java.util.Date;
 import java.util.UUID;
 
@@ -56,6 +57,9 @@ public class Customer {
     @JoinColumn(name = "STAFF_ID")
     @ManyToOne(fetch = FetchType.LAZY)
     private User staff;
+
+    @Column(name = "NOTIFY_AT")
+    private Instant notifyAt;
 
     public User getStaff() {
         return staff;
@@ -127,5 +131,13 @@ public class Customer {
 
     public void setId(UUID id) {
         this.id = id;
+    }
+
+    public Instant getNotifyAt() {
+        return notifyAt;
+    }
+
+    public void setNotifyAt(Instant notifyAt) {
+        this.notifyAt = notifyAt;
     }
 }
