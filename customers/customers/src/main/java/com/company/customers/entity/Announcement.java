@@ -1,15 +1,12 @@
 package com.company.customers.entity;
 
-import com.company.users.entity.InstantDatatype;
 import io.jmix.core.metamodel.annotation.JmixEntity;
-import io.jmix.core.metamodel.annotation.PropertyDatatype;
 
 import java.time.Instant;
 
 @JmixEntity(name = "cst_Announcement")
 public class Announcement {
 
-    @PropertyDatatype(InstantDatatype.ID)
     private Instant time;
 
     private String message;
