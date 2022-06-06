@@ -13,3 +13,10 @@ The subprojects can be stored in separate Git repositories.
 Dependencies between the subprojects:
 
 ![deps](http://www.plantuml.com/plantuml/png/SoWkIImgAStDuOekJin9BOvLqDMrKuWkBKujAev55KikBIx9pyKKBoZAJobDBW4AmvMW6GDJWYRia9gN0hGP0000)
+
+
+## Usage
+
+- Clone the repository.
+- Open `./all` directory in IntelliJ IDEA with Jmix Studio plugin installed.
+- Wait until Gradle import is finished.
