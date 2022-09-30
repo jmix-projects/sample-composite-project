@@ -5,22 +5,6 @@
         xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
                       http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
 
-    <changeSet id="0" author="users-addon">
-
-        <createTable tableName="USR_FOO">
-            <column name="ID" type="${uuid.type}">
-                <constraints primaryKey="true" nullable="false"/>
-            </column>
-            <column name="VERSION" type="int">
-                <constraints nullable="false"/>
-            </column>
-            <column name="NAME" type="varchar(255)">
-                <constraints nullable="false"/>
-            </column>
-        </createTable>
-
-    </changeSet>
-
     <changeSet id="1" author="users-addon">
 
         <createTable tableName="USR_USER">
