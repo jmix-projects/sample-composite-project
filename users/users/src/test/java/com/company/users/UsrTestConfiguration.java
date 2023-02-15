@@ -14,7 +14,7 @@ import javax.sql.DataSource;
 @SpringBootConfiguration
 @EnableAutoConfiguration
 @Import(UsrConfiguration.class)
-@JmixModule(dependsOn = UsrConfiguration.class)
+@JmixModule(id = "com.company.users.test", dependsOn = UsrConfiguration.class)
 public class UsrTestConfiguration {
 
     @Bean

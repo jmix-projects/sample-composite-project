@@ -14,7 +14,7 @@ import javax.sql.DataSource;
 @SpringBootConfiguration
 @EnableAutoConfiguration
 @Import(CstConfiguration.class)
-@JmixModule(dependsOn = CstConfiguration.class)
+@JmixModule(id = "com.company.customers.test", dependsOn = CstConfiguration.class)
 public class CstTestConfiguration {
 
     @Bean
