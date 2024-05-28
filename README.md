@@ -1,5 +1,7 @@
 # Sample Composite Project
 
+**See https://github.com/jmix-projects/sample-composite-project-2 for the example based on Jmix 2.x**
+
 This project demonstrates a possible approach to work with add-ons and applications using them in a single IDE project, without the need to publish add-ons to test them in the applcation.
 
 The composite project consists of the following subprojects:
